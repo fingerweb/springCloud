@@ -16,7 +16,7 @@ public class TestController {
 	@GetMapping("/getFeignInterface/{name}")
 	public String feign(@PathVariable("name") String name) {
 		System.out.println("hello world");
-		return feignInterface.home1(name + "!");
+		return feignInterface.home( name  + "!");
 	}
 	
 	@GetMapping("/api/v1/hello")

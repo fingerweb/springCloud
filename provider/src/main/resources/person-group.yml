@@ -1,0 +1,12 @@
+person-group: 
+    groupName: studyGroup
+    personGroupDetail: 
+        - name: 小明
+          age: 18
+          sex: 0
+        - name: 小红
+          age: 19
+          sex: 1
+        - name: 小王
+          age: 17
+          sex: 0
