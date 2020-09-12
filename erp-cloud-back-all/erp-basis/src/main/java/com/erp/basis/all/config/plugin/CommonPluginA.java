@@ -7,7 +7,7 @@ import com.erp.basis.common.api.ICommonPlugin;
 @Component
 public class CommonPluginA implements ICommonPlugin{
 
-	public void init() {
+	public void init(){
 		System.out.println("CommonPluginA.init()");
 	}
 

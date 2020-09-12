@@ -6,8 +6,6 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.erp.basis.all.config.InitStageListener;
-
 
 //开启Feign远程服务调用功能
 @EnableFeignClients(basePackages= {"com.erp.basis.service.api"})
